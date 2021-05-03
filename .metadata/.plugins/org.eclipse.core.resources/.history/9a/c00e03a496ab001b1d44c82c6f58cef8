@@ -1,0 +1,23 @@
+package Aplication;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import entities.Comentarios;
+import entities.Postagem;
+
+
+public class Progama {
+	public static void main (String[] args) throws ParseException {
+	
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy, HH:mm:ss");
+		
+	Comentarios c1 = new Comentarios( "Tenha uma boa viagem");
+	Comentarios c2 = new Comentarios("Uau é isso é maravilhos");
+	Postagem p1 = new Postagem (
+			sdf.parse("21/06/2016 11:04:44"),
+			"Tenha uma boa viagem",
+			"Uau é maravilhoso",
+			12);
+	}
+}

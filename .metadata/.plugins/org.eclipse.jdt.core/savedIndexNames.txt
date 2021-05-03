@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\luisa\Documents\vw.esclipseComentariosLike\.metadata\.plugins\org.eclipse.jdt.core
+1671692264.index
+4268061355.index
